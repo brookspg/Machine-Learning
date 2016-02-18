@@ -1,4 +1,7 @@
 linear_regression <- function(data, dependent, ..., intercept = T) {
+  #Right now any feature engineering has to be done prior to using this function, eventually I'll get around to
+  #allowing you to input a formula but for now I just wanted to get the matrix transformation working. 
+  
   #List of Independent Variables
   variables <- unlist(list(...))
   
